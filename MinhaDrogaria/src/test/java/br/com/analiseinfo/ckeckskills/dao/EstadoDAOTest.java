@@ -9,7 +9,6 @@ public class EstadoDAOTest {
 
 	@Test
 	public void salvar() {
-		// TODO Auto-generated method stub
 		Estado estado = new Estado();
 		estado.setNome("luan");
 		estado.setSigla("SD");
