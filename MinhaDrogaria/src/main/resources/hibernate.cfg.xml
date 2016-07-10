@@ -34,16 +34,16 @@
 
 		
 		<!-- Mapeamento das entidades -->
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Cidade" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Cliente" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Estado" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Fabricante" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Funcionario" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.ItemVenda" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Pessoa" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Produto" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Usuario" />
-		<mapping class="br.com.analiseinfo.ckeckskills.domain.Venda" />
+		<mapping class="br.com.minhadrogaria.domain.Cidade" />
+		<mapping class="br.com.minhadrogaria.domain.Cliente" />
+		<mapping class="br.com.minhadrogaria.domain.Estado" />
+		<mapping class="br.com.minhadrogaria.domain.Fabricante" />
+		<mapping class="br.com.minhadrogaria.domain.Funcionario" />
+		<mapping class="br.com.minhadrogaria.domain.ItemVenda" />
+		<mapping class="br.com.minhadrogaria.domain.Pessoa" />
+		<mapping class="br.com.minhadrogaria.domain.Produto" />
+		<mapping class="br.com.minhadrogaria.domain.Usuario" />
+		<mapping class="br.com.minhadrogaria.domain.Venda" />
 		
 		<!-- Teste de comentario -->
 	</session-factory>

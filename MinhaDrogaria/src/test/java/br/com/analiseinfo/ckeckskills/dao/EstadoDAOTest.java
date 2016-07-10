@@ -1,5 +1,7 @@
 package br.com.analiseinfo.ckeckskills.dao;
 
+import java.util.List;
+
 import org.junit.Test;
 
 import br.com.minhadrogaria.dao.EstadoDAO;
@@ -17,4 +19,15 @@ public class EstadoDAOTest {
 		dao.salvar(estado);
 		dao.commit();
 	}
+	
+	
+	@Test
+	public void Listar(){
+		EstadoDAO dao = new EstadoDAO();
+		List<Estado> listar = (List<Estado>) dao.getBeans();
+		for (Estado item : listar) {
+			System.out.println(" " + item.getNome());
+		}
+	}
+	
 }
