@@ -2,7 +2,8 @@ package br.com.analiseinfo.ckeckskills.dao;
 
 import org.junit.Test;
 
-import br.com.analiseinfo.ckeckskills.domain.Estado;
+import br.com.minhadrogaria.dao.EstadoDAO;
+import br.com.minhadrogaria.domain.Estado;
 
 public class EstadoDAOTest {
 

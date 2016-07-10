@@ -2,6 +2,8 @@ package br.com.analiseinfo.ckeckskills.util;
 import org.hibernate.Session;
 import org.junit.Test;
 
+import br.com.minhadrogaria.util.HibernateUtil;
+
 
 public class HibernateUtilTest {
 	
